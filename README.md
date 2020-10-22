@@ -1,7 +1,7 @@
 # Get Joomla on IBM Cloud
 
 You should have an IBM Cloud account, otherwise you can [register here].
-At the end of the tutorial you will have a cluster with Nginx up and runnning.
+At the end of the tutorial you will have a cluster with Joomla up and runnning.
 
 1. We will provision a new Kubernetes Cluster for you if, you already have one skip to step **2**
 2. We will deploy  the IBM Cloud Block Storage plug-in, if already have it skip to step **3**
@@ -91,7 +91,7 @@ We will deploy  Joomla on our cluster
 
 * Give **tags** to your joomla workspace, for more information visit [tags]
 
-![nginx-tags](/details-tags.png)
+![joomla-tags](/details-tags.png)
 
 * Click on **Parameters with default values**, You can set deployment values or use the default ones
 
@@ -103,11 +103,11 @@ We will deploy  Joomla on our cluster
 
 * The joomla workspace will start installing, wait a couple of minutes 
 
-![nginx-install](/in-progress.png)
+![joomla-install](/in-progress.png)
 
 * You joomla workspace has been successfully deployed
 
-![nginx-finsihed](/done.png)
+![joomla-finsihed](/done.png)
 
 ## Verify Joomla installation
 
